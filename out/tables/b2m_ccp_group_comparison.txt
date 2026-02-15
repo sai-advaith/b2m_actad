@@ -1,0 +1,53 @@
+C121 vs I121 lattice comparison
+Input rows: 22
+Successful structures: 22
+Region-contact window: residues 55-63 (contact has at least one partner in window)
+FreeSASA available: yes
+Map-local compactness metrics are placeholders (NaN) unless map data are provided.
+
+cell_volume: mean_C121=1.019e+05, mean_I121=1.008e+05, C121 > I121, cliffs_delta=0.128, p=0.64
+matthews_vm_est: mean_C121=2.196, mean_I121=2.166, C121 > I121, cliffs_delta=0.094, p=0.738
+solvent_fraction_est: mean_C121=0.4353, mean_I121=0.4293, C121 > I121, cliffs_delta=0.094, p=0.738
+crystal_contacts_atom: mean_C121=230.4, mean_I121=216.9, C121 > I121, cliffs_delta=0.128, p=0.64
+crystal_contacts_residue: mean_C121=51.67, mean_I121=48.46, C121 > I121, cliffs_delta=0.222, p=0.402
+nearest_symmetry_atom_distance: mean_C121=1.737, mean_I121=1.964, C121 < I121, cliffs_delta=-0.077, p=0.789
+median_symmetry_atom_distance: mean_C121=16.74, mean_I121=16.76, C121 < I121, cliffs_delta=-0.179, p=0.504
+symmetry_contacts_within_nearest_cutoff: mean_C121=2.203e+05, mean_I121=2.173e+05, C121 > I121, cliffs_delta=-0.009, p=1
+crystal_contacts_atom_per_1k_atoms: mean_C121=261.7, mean_I121=249.5, C121 > I121, cliffs_delta=0.111, p=0.689
+crystal_contacts_residue_per_1k_atoms: mean_C121=58.87, mean_I121=55.77, C121 > I121, cliffs_delta=0.197, p=0.463
+crystal_contacts_atom_region_any: mean_C121=77.89, mean_I121=72.85, C121 > I121, cliffs_delta=0.137, p=0.615
+crystal_contacts_residue_region_any: mean_C121=16, mean_I121=15.23, C121 > I121, cliffs_delta=-0.120, p=0.641
+crystal_contacts_atom_region_any_per_1k_region_atoms: mean_C121=863.5, mean_I121=869.7, C121 < I121, cliffs_delta=-0.034, p=0.92
+crystal_contacts_residue_region_any_per_1k_region_atoms: mean_C121=177.3, mean_I121=181.7, C121 < I121, cliffs_delta=-0.239, p=0.355
+interface_bsa_top_images_sum: mean_C121=594.7, mean_I121=712.9, C121 < I121, cliffs_delta=-0.179, p=0.504
+interface_bsa_top_images_mean: mean_C121=198.2, mean_I121=250.8, C121 < I121, cliffs_delta=-0.214, p=0.423
+interface_bsa_top_image_max: mean_C121=435.1, mean_I121=540, C121 < I121, cliffs_delta=-0.214, p=0.423
+interface_region_bsa_top_images_sum: mean_C121=114.7, mean_I121=203, C121 < I121, cliffs_delta=-0.402, p=0.119
+interface_region_bsa_top_images_mean: mean_C121=38.24, mean_I121=68.99, C121 < I121, cliffs_delta=-0.402, p=0.119
+interface_region_bsa_top_image_max: mean_C121=114.7, mean_I121=202.7, C121 < I121, cliffs_delta=-0.402, p=0.119
+region_sasa_sum: mean_C121=656.8, mean_I121=693, C121 < I121, cliffs_delta=-0.248, p=0.35
+region_sasa_mean_atom: mean_C121=7.948, mean_I121=8.349, C121 < I121, cliffs_delta=-0.248, p=0.35
+region_sasa_median_atom: mean_C121=1.313, mean_I121=1.537, C121 < I121, cliffs_delta=-0.282, p=0.285
+region_buried_atom_fraction_sasa_lt_5: mean_C121=0.6364, mean_I121=0.6239, C121 > I121, cliffs_delta=0.214, p=0.416
+region_buried_atom_fraction_sasa_lt_10: mean_C121=0.7326, mean_I121=0.7175, C121 > I121, cliffs_delta=0.316, p=0.221
+region_neighbor_contacts_4A: mean_C121=326, mean_I121=335.9, C121 < I121, cliffs_delta=-0.060, p=0.841
+region_neighbor_unique_partner_atoms_4A: mean_C121=65.39, mean_I121=66.27, C121 < I121, cliffs_delta=-0.205, p=0.442
+region_neighbor_contacts_6A: mean_C121=2076, mean_I121=2109, C121 < I121, cliffs_delta=-0.043, p=0.894
+region_neighbor_unique_partner_atoms_6A: mean_C121=162.1, mean_I121=162.4, C121 < I121, cliffs_delta=-0.128, p=0.64
+region_centroid_local_atom_density_6A_per_nm3: mean_C121=61.91, mean_I121=62.93, C121 < I121, cliffs_delta=-0.419, p=0.104
+region_nearest_symmetry_atom_distance: mean_C121=2.735, mean_I121=2.751, C121 < I121, cliffs_delta=-0.094, p=0.738
+region_median_symmetry_atom_distance: mean_C121=5.115, mean_I121=5.111, C121 > I121, cliffs_delta=-0.009, p=1
+region_b_iso_mean: mean_C121=19.41, mean_I121=24.8, C121 < I121, cliffs_delta=-0.231, p=0.385
+global_b_iso_mean: mean_C121=20.16, mean_I121=23.42, C121 < I121, cliffs_delta=-0.162, p=0.548
+region_b_iso_ratio_to_global: mean_C121=0.9586, mean_I121=1.024, C121 < I121, cliffs_delta=-0.299, p=0.256
+region_b_iso_zscore_vs_global: mean_C121=-0.08445, mean_I121=0.04336, C121 < I121, cliffs_delta=-0.299, p=0.256
+region_occ_mean: mean_C121=0.9142, mean_I121=0.9856, C121 < I121, cliffs_delta=-0.179, p=0.395
+region_occ_lt1_fraction: mean_C121=0.1717, mean_I121=0.02874, C121 > I121, cliffs_delta=0.179, p=0.395
+region_altloc_atom_fraction: mean_C121=0.1717, mean_I121=0.02874, C121 > I121, cliffs_delta=0.179, p=0.395
+region_altloc_residue_fraction: mean_C121=0.1235, mean_I121=0.03419, C121 > I121, cliffs_delta=0.171, p=0.419
+region_map_fraction_above_threshold: mean_C121=nan, mean_I121=nan, C121 < I121, cliffs_delta=nan, p=nan
+region_map_gradient_sharpness: mean_C121=nan, mean_I121=nan, C121 < I121, cliffs_delta=nan, p=nan
+region_map_local_variance: mean_C121=nan, mean_I121=nan, C121 < I121, cliffs_delta=nan, p=nan
+loose_packing_score: mean_C121=0.02883, mean_I121=-0.01996, C121 > I121, cliffs_delta=-0.128, p=0.64
+
+No strong systematic differences detected with the current rule (p < 0.05 and |Cliff's delta| >= 0.33).
