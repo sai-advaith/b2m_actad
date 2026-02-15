@@ -1,6 +1,6 @@
 # Density-guided AlphaFold recovers unmodeled conformations in $\beta_2$-microglobulin"
 
-This README is for reproducing results presented in the paper **"Density-guided AlphaFold3 uncovers unmodelled conformations in $\\{\beta}_2$-microglobulin"**.
+This README is for reproducing results presented in the paper **"Density-guided AlphaFold3 uncovers unmodelled conformations in $\beta_2$-microglobulin"**.
 
 All figures documented in this repository so far (this README + appendix) are for reproducing **Figure 2** in the paper.
 
