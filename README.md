@@ -81,3 +81,6 @@ Outputs (ordered as requested):
 ## Appendix
 All other plots and reproduction commands are documented in:
 - [README_APPENDIX.md](README_APPENDIX.md)
+
+## Structures
+Compressed output structures can be found in `b2m_actad_outputs.zip`
